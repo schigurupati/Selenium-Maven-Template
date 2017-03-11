@@ -29,7 +29,7 @@ public enum DriverType implements DriverSetup {
         }
 
         public WebDriver getWebDriverObject(DesiredCapabilities capabilities) {
-            System.setProperty("webdriver.gecko.driver", "/Users/schigurupati/Downloads/BEST SELENIUM FRAMEWORK/Selenium-Maven-Template-master/src/test/resources/selenium_standalone_binaries/osx/marionette/64bit/geckodriver");
+            //System.setProperty("webdriver.gecko.driver", "/Users/schigurupati/Downloads/BEST SELENIUM FRAMEWORK/Selenium-Maven-Template-master/src/test/resources/selenium_standalone_binaries/osx/marionette/64bit/geckodriver");
             return new FirefoxDriver(capabilities);
         }
     },
